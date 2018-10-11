@@ -12,4 +12,4 @@ inputs:
 
 run:
   path: /bin/ls
-  args: ["-la" "nanogo-repo"]
+  args: ["-la","nanogo-repo"]
