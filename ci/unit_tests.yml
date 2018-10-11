@@ -8,5 +8,5 @@ image_resource:
     tag: 3.6
 
 run:
-  path: /bin/ls
-  args: [-la]   
+  path: /bin/sh
+    args: nanogo-repo/ci/task.sh 
