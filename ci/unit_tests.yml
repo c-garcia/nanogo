@@ -9,4 +9,4 @@ image_resource:
 
 run:
   path: /bin/sh
-    args: nanogo-repo/ci/task.sh 
+  args: nanogo-repo/ci/task.sh 
