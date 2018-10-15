@@ -12,5 +12,5 @@ inputs:
 
 run:
   path: docker-compose
-  args: ["config"]
+  args: ["run", "--rm", "tests"]
   dir: nanogo-repo/ci
