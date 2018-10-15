@@ -9,4 +9,8 @@ services:
     - POSTGRES_PASSWORD=sampledb
     - POSTGRES_USER=sampledb
     - PGDATA=/database
+  tests:
+    image: obliquo/nanogo
+    entrypoint: /usr/bin/make
+    command: test
 
