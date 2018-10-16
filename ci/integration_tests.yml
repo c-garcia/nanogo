@@ -11,7 +11,7 @@ inputs:
   - name: nanogo-repo
 
 run:
-  path: docker-compose
-  args: ["run", "--rm", "tests"]
+  path: /entrypoint.sh
+  args: ["docker-compose", "run", "--rm", "tests"]
   #args: ["config"]
   dir: nanogo-repo/ci
